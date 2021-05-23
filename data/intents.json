@@ -1,0 +1,235 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "hi","hiii","hii", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?","Hi there! I am sarah."],
+         "context_set": ""
+        },
+	
+	{"tag": "fine",
+         "patterns": ["How are you", "how is your health","are you fine"],
+         "responses": ["i am fine", "fine, thanks for asking", "alway fine","fine as well as you","fine, and you"],
+         "context_set": ""
+        },
+	
+	{"tag": "id",
+         "patterns": ["who are you ?", "what is your name ?","your name is ?","tell me your name"],
+         "responses": ["i am sarah", "my name is sarah", "sarah, your assistant"],
+         "context_set": ""
+        },
+	
+		
+	
+        {"tag": "mb",
+         "patterns": ["master bedroom", "flat 903 master bedroom"],
+         "responses": ["Master bedroom is one of the 2 bed rooms of flat 903. It has an area of 300 sq feet. There is a king size bed and a dressing table in the room. It has an in built washroom also"],
+         "context_set": ""
+        },
+
+
+        {"tag": "flat",
+         "patterns": ["903", "flat number 903", "Block 2","flat 309"],
+         "responses": ["Flat no 903 is the flat in 9th Floor of jasmine apartment. It’s a 1540 sq feet flat. It is a 2 BHK flat."],
+         "context_set": ""
+        },
+        {"tag": "owner",
+         "patterns": ["owner of 903", "903 owner", "who is 903 owner" ],
+         "responses": ["Mr. Elton samuel"],
+         "context_set": ""
+        },
+        {"tag": "owner2",
+         "patterns": ["Owner2 of 903", "903 owner2" ,"Who is owner2 of 903"],
+         "responses": ["Mrs. Lilly Samuel"],
+         "context_set": ""
+        },
+        {"tag": "ks",
+         "patterns": ["903 kitchen status", "what is the status of 903 kitchen"],
+         "responses": ["All the applicances are working fine in the Kitchen"],
+         "context_set": ""
+        },
+
+{"tag": "ws",
+         "patterns": ["what is the status of 903 wshroom", "903 washroom status"],
+         "responses": ["Tap is ON "],
+         "context_set": ""
+        },
+
+
+{"tag": "rc",
+         "patterns": ["Refrigerator capacity please", "What is the capacity of refrgerator","Refrigerator capacity"],
+         "responses": ["Current capacity of refrigerator is 310 ltrs, 190 ltrs can still be used"],
+         "context_set": ""
+        },
+
+{"tag": "dis12pl",
+         "patterns": ["dis12pl","dis 12 pl","dis 12pl","dis12 pl", "dis12pl specifications","dis12 pl specifications","dis 12 pl specifications"," dis12pl details","dis12p specifications please"],
+         "responses": ["Dis12pl is a television  \n Make: LG   \nType: LED Smart TV  \nSr No: ddd122   \nSize: 47 inch\nDis12pl is a television  \n Make: LG   \nType: LED Smart TV  \nSr No: ddd122   \nSize: 47 inch"],
+         "context_set": ""
+        },
+
+
+{"tag": "dis12plo",
+         "patterns": ["dis12pl overview","dis 12 pl overview", "dis12 pl overview","dis12pl information","dis 12pl information","dis 12 pl information"," dis12pl process philosophy please ","dis12p information please"],
+         "responses": ["Dis12pl is a 47 inch smart TV located in the living room. It is wall mounted TV. Kids enjoy watching cartoon in this TV"],
+         "context_set": ""
+        },
+
+{"tag": "dis12pls",
+         "patterns": ["dis12pl status","dis 12 pl status","dis12 pl status", "dis12pl status please"," status of dis12pl "],
+         "responses": ["dis12pl is currently OFF"],
+         "context_set": ""
+        },
+
+
+{"tag": "fre12g",
+         "patterns": ["fre12g", "fre12g specification"," fre12g details","fre12g specification please","fre12g details please"],
+         "responses": ["Fre12g is a refrigerator Make:Hitcahi Type: Double door Capacity: 550 Ltrs Sr No: ddd122 Size: 1.5 m X 1m "],
+         "context_set": ""
+        },
+
+{"tag": "fre12go",
+         "patterns": ["fre12g overview", "fre12g information","fre12g overview please","fre12g information please","fre12g process philosophy please"],
+         "responses": ["fre12g is a double door Hitachi make refrigerator. It was purchased in 2019. It located in the kitchen. "],
+         "context_set": ""
+        },
+
+{"tag": "fre12gs",
+         "patterns": ["fre12g status", "fre12g status please"," status of fre12g "],
+         "responses": ["fre12g is currently ON"],
+         "context_set": ""
+        },
+
+{"tag": "bun22d",
+         "patterns": ["bun22d specifications", "bun22d details","bun22d specifications please", "bun22d details please"],
+         "responses": ["Bun22d is a bunker bed Make: Pan furnitures Type: two rows Size: 150 cm X 50 cm Sr No: 22sd32"],
+         "context_set": ""
+        },
+
+{"tag": "bun22do",
+         "patterns": ["bun22d overview", "bun22d information","bun22d overview please","bun22d information please","bun22d process philosophy please"],
+         "responses": ["bun22d is a double door Hitachi make refrigerator. It was purchased in 2019. It located in the kitchen. "],
+         "context_set": ""
+        },
+
+{"tag": "bun22ds",
+         "patterns": ["bun22d status", "bun22d status please"," status of bun22d "],
+         "responses": ["Jessi is sleeping. Messi is not in his bed"],
+         "context_set": ""
+        },
+
+
+{"tag": "elsie12",
+         "patterns": ["elsie12 specifications", "elsie12 details","elsie12 specifications please", "elsie12 details please"],
+         "responses": ["elsie12 is a doll Make: Barbie Hair: Golden Height: 15cm Dress: Blue gown"],
+         "context_set": ""
+        },
+
+{"tag": "elsie12o",
+         "patterns": ["elsie12 overview", "elsie12 information","elsie12 overview please","elsie12 information please","elsie12 process philosophy please"],
+         "responses": ["Elsie12 is a doll. It is the favourite doll of Jessi. She carries it her everywhere. In jesso's absence Elsie12 can be found in the toy box "],
+         "context_set": ""
+        },
+
+{"tag": "elsie12s",
+         "patterns": ["elsie12 status", "elsie12 status please"," status of elsie12 "],
+         "responses": ["Elsie12 is in toy box"],
+	"context_set": ""
+        },
+         
+
+
+{"tag": "ph52ne",
+         "patterns": ["ph52ne specifications", "ph52ne details","ph52ne specifications please", "ph52ne details please"],
+         "responses": ["Ph52ne is landline phone Make: Panasonic Type: Cordless Range: 10 mtrs Colour: Grey Sr No: adf54"],
+         "context_set": ""
+        },
+
+{"tag": "ph52neo",
+         "patterns": ["ph52ne overview", "ph52ne information","ph52ne overview please","ph52ne information please","ph52ne process philosophy please "],
+         "responses": ["ph52ne is a lanline phone. It is a very important gadget of the house. Whithout Ph52ne communication becomes difficult. It is located in the corner sand of living room "],
+         "context_set": ""
+        },
+
+{"tag": "ph52nes",
+         "patterns": ["ph52ne status", "ph52ne status please"," status of ph52ne "],
+         "responses": ["Ph52ne is busy"],
+         "context_set": ""
+        },
+
+{"tag": "din1tl",
+         "patterns": ["din1tl", "din1tl specifications"," din1tl details","din1tl specifications please"],
+         "responses": ["din1tl is a dining table Make: Ikea Capacity: 6 people Dimension: 75 cm X 40cm X 20 cm"],
+         "context_set": ""
+        },
+
+
+{"tag": "din1tlo",
+         "patterns": ["din1tl overview", "din1tl information"," din1tl process philosophy please ","din1tl information please"],
+         "responses": ["Dis12pl is a 47 inch smart TV located in the living room. It is wall mounted TV. Kids enjoy watching cartoon in this TV"],
+         "context_set": ""
+        },
+
+{"tag": "din1tls",
+         "patterns": ["din1tl status", "din1tl status please"," status of din1tl "],
+         "responses": ["din1tl is empty"],
+         "context_set": ""
+        },
+
+
+
+
+
+
+
+
+{"tag": "cur22n",
+         "patterns": ["cur22n", "cur22n specifications"," cur22n details","cur22n specifications please"],
+         "responses": ["Cur22n is a curtain Make: Home center Color: Purple Type: Double sliding Length: 110 cm"],
+         "context_set": ""
+        },
+
+
+{"tag": "cur22no",
+         "patterns": ["cur22n overview", "cur22n information"," cur22n process philosophy please ","cur22n information please"],
+         "responses": ["Cur22n is  installed in bedroom2 window. It is used to avoid sunlight intry during excessive sumer"],
+         "context_set": ""
+        },
+
+{"tag": "cur22ns",
+         "patterns": ["cur22n status", "cur22n status please"," status of cur22n "],
+         "responses": ["Cur22n is closed"],
+         "context_set": ""
+        },
+
+
+
+
+{"tag": "ck45rg",
+         "patterns": ["ck45rg", "ck45rg specifications"," ck45rg details","ck45rg specifications please"],
+         "responses": ["Ck45rg is cooking range Make: Aftron Type: Cooker with oven Burners: 4 Sr No: sds5d"],
+         "context_set": ""
+        },
+
+
+{"tag": "ck45rgo",
+         "patterns": ["ck45rg overview", "ck45rg information"," ck45rg process philosophy please ","ck45rg information please"],
+         "responses": ["Ck45rg is a cooking range. It is located in the kitchen. It is used to cook food. There is an exhaust fan on top of it to vent out the smoke"],
+         "context_set": ""
+        },
+
+{"tag": "ck45rgs",
+         "patterns": ["ck45rg status", "ck45rg status please"," status of ck45rg "],
+         "responses": ["burner 2 of Ck45rg is ON"],
+         "context_set": ""
+        }
+
+
+
+
+
+
+
+
+
+
+   ]
+}

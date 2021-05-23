@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\Jarvis\\chatbot\\Source_Code\\model\\model.tflearn"
+all_model_checkpoint_paths: "E:\\Jarvis\\chatbot\\Source_Code\\model\\model.tflearn"
