@@ -13,6 +13,7 @@
  "context_set": ""}
  - Delete model folder
  - Run "python Sarah.py" in terminal. It will start training.
+ - To get voice response add tags in "data/speak.json".
  
  ## Snapshots 
  - Main Screen
