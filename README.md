@@ -6,7 +6,7 @@
 
 ## How to use
 ### Train
-- You can train chatbot with your custom data by puting your data into data\intents.json file with following format
+- You can train chatbot with your custom data by puting your data into data\intents.json file with following format :
 - {"tag":"Label",
  "pattern":["keywords of your question"],
  "responses":["expected responses"],
